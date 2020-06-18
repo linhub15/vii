@@ -3,6 +3,7 @@
   "license": "UNLICENSED",
   "workspaces": ["api", "restaurant"],
   "scripts": {
-    "start": "yarn workspace restaurant start"
+    "start-api": "yarn workspace api start",
+    "start-restaurant": "yarn workspace restaurant start"
   }
 }
