@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": ["api", "restaurant"],
+  "scripts": {
+    "start": "yarn workspace restaurant start"
+  }
+}
